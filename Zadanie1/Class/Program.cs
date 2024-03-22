@@ -2,3 +2,4 @@
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Bla bla");
+var x = 10;
