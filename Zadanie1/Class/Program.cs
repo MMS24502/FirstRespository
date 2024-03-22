@@ -16,7 +16,7 @@ var res2 = Max(tab);
 Console.WriteLine(res2);
 
 
-static int Avg (int [] tab)
+static int Avg(int[] tab)
 {
     var avgBen = 0;
     for (int i = 0; i < tab.Length; i++)
