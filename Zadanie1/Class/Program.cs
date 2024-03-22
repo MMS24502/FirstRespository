@@ -18,14 +18,14 @@ Console.WriteLine(res2);
 
 static int Avg (int [] tab)
 {
-    var avg = 0;
+    var avgDif = 0;
     for (int i = 0; i < tab.Length; i++)
     {
-        avg += tab[i];
+        avgDif += tab[i];
     }
 
-    avg /= tab.Length;
-    return avg;
+    avgDif /= tab.Length;
+    return avgDif;
 }
 
 static int Max (int [] tab)
